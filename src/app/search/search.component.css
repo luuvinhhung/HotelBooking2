@@ -1,0 +1,19 @@
+input {
+    height: 55px;
+    width: 555px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 12px;
+    color: #a578f5;
+    border: 1px #a578f5 solid;
+    margin: 0px;
+}
+button {
+    height: 55px;
+    width: 100px;
+    background-color: whitesmoke;
+    border: 1px #a578f5 solid;
+    border-radius: 12px;
+    color: #a578f5;
+    text-align: center;  
+}

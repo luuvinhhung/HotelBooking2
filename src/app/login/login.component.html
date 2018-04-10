@@ -1,0 +1,19 @@
+<div class="background">
+  <img src="../../assets/halongBay.jpg" alt="">
+</div>
+
+<div class="transbox">
+  <h3>Đăng nhập</h3>
+  <form>
+    <div>
+      <input autocomplete="on" type="text" required placeholder="Tài khoản" name="username" [(ngModel)]="username">
+    </div>
+    <div>
+      <input autocomplete="on" type="password" placeholder="Mật khẩu" required name="password" [(ngModel)]="password">
+    </div>
+    <div>
+      <button (click)="login(username, password)">Đăng nhập</button>
+      <button>Đăng ký</button>
+    </div>
+  </form>
+</div>

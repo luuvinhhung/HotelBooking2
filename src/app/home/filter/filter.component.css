@@ -1,0 +1,20 @@
+.filter {
+    color: #a578f5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border-bottom: 1px solid #a578f5;
+    margin-top: 10px;
+    padding-bottom: 10px; 
+}
+.btnRate {
+    border: 1px solid #a578f5;
+    padding: 2px; 
+    margin: 5px; 
+    background-color: whitesmoke;
+    height: 40px;
+    width: 40px;
+}
+.btnDanhgia {
+    border: 0px;
+    background-color: white;
+}

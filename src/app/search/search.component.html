@@ -1,0 +1,9 @@
+<div class="input-group mb-3">
+  <input [(ngModel)]='temp' (keyup.enter)='search()'
+  autofocus="autofocus" placeholder="Nhập tỉnh, thành phố">
+  <div class="input-group-append">
+    <button (click)='search()'>
+      <i class="fa fa-search fa-3x"></i>
+    </button>
+  </div>
+</div>

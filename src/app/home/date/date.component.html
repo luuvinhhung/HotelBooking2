@@ -1,0 +1,15 @@
+<div>
+    <div class="nhanPhong" style="border-radius: 12px; text-align: center;">
+        <i class="far fa-calendar-alt"></i>
+        <span>Đặt phòng</span>
+        <input [(ngModel)]="nhanPhong" class="inputDate" type="date" min="2018-04-09">
+    </div>
+    <div class="traPhong" style="border-radius: 12px; text-align: center;">
+        <i class="far fa-calendar-alt"></i>
+        <span>Trả phòng</span>
+        <input [(ngModel)]="traPhong" class="inputDate" type="date" min="2018-04-09">  
+    </div>
+    <div style="padding-top: 10px;">
+        <button (click)='temp()' class="BtnDate">Đặt ngày</button>
+    </div>
+</div>

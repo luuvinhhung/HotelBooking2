@@ -1,0 +1,25 @@
+div {
+    height: 65px;
+    border-bottom: 1px solid #EBECED;
+    background-color: #B3E5FC;
+}
+.logo {
+    height: 65px;
+    /* display: inline; */
+    /* border-bottom: 1px solid #EBECED; */
+}
+.loginButton {
+    height: 63px;
+    width: 150px;
+    float: right;
+    text-align: center; 
+    background-color: #B3E5FC;
+    font-size: 15px;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0px;
+    color: #a578f5;
+}
+.loginButton:hover{
+    border: 1px solid #a578f5;
+}

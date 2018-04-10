@@ -1,0 +1,42 @@
+<div class="details">
+    <img src= {{img}}>
+    <p>
+        <span *ngIf='wifi'>
+            <i class="fas fa-wifi fa-3x"></i> Free WiFi</span>
+        <span *ngIf='parking'>
+            <i class="fab fa-product-hunt fa-3x"></i> Parking</span>
+        <span *ngIf='bar'>
+            <i class="fas fa-glass-martini fa-3x"></i> Bar</span>
+        <span *ngIf='restaurant'>
+            <i class="fas fa-utensils fa-3x"></i> Restaurant</span>
+    </p>
+    <p class="overviewtext">{{overview}}</p>
+    <p class="overviewtext">{{price | currency:'VND ':'code'}}</p>
+    <button class="BtnViewmore" (click)='back()'>Quay lại</button>
+    <button *ngIf='room' class="BtnViewmore" data-toggle="modal" data-target="#myModal" (click)='addUser()'>Đặt phòng</button>
+    <button *ngIf='!room' class="DisBtnViewmore" disabled>Hết phòng</button>
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Xác nhận đặt phòng</h4>
+                </div>
+                <div *ngIf='username' class="modal-body">
+                    <p>Khách sạn: {{name | uppercase}}</p>
+                    <p>Ngày nhận phòng: {{checkin}}</p>
+                    <p>Ngày trả phòng: {{checkout}}</p>
+                    <p>Tài khoản: {{username}}</p>
+                </div>
+                <div *ngIf='username === null' class="modal-body">
+                    <p>Mời đăng nhập để đặt phòng</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

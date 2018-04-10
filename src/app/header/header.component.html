@@ -1,0 +1,9 @@
+<div>
+  <img [routerLink]="['/home']" class="logo" src="assets/letsgo.png" alt="" />
+  <button  *ngIf='!login' class="loginButton" [routerLink]="['/login']">
+    Đăng nhập
+  </button>
+  <button *ngIf='login' class="loginButton">
+    Tài khoản
+  </button>
+</div>

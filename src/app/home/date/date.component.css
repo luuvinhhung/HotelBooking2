@@ -1,0 +1,33 @@
+.nhanPhong {
+    display: inline-block;
+    border: 0px;
+    height: 40px;
+    width: 318px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #a578f5;
+    background-color: whitesmoke;
+}
+.traPhong {
+    display: inline-block;
+    border: 0px;
+    height: 40px;
+    width: 318px;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #a578f5;
+    background-color: whitesmoke;
+}
+.inputDate {
+    border: 0px;
+    width: 318px;
+}
+.BtnDate {
+    height: 30px; 
+    background-color: whitesmoke;
+    border-radius: 12px; 
+    color: #a578f5; text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}

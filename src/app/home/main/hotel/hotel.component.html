@@ -1,0 +1,12 @@
+<div class="khung">
+  <img src= {{hotelPoster}}>
+  <button (click)='temp()' class="details">
+    <i class="fas fa-search"></i>Chi tiết</button>
+  <h1>{{name | uppercase}}</h1>
+  <p style="font-family: 'Times New Roman', Times, serif; font-size: 15px; color: #F6AB3F">
+    {{rate}} <i class="fas fa-star"></i>
+  </p> 
+  <p class="overviewtext">{{overview}}</p>
+  <p class="overviewtext">{{price | currency:'VND ':'code'}}</p>
+  <button (click)='temp()' class="BtnViewmore">Chi tiết</button>
+</div>
